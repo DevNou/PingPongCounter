@@ -31,9 +31,10 @@
                             <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
                             <p class="subtitle">Use the buttons below to keep score 🏓</p>
 
-                            <label for="playto" class="label is-large is-inline">Playing To</label>
+                            <label for="playto" class="label is-large is-inline" id="playToSelect">Playing To</label>
                             <div class="select is-rounded">
                                 <select id="playto">
+                                    <option value="nah" selected>Default</option>
                                     <option value="3">3</option>
                                     <option value="5">5</option>
                                     <option value="8">8</option>
@@ -44,9 +45,9 @@
                         </div>
                     </div>
                     <footer class="card-footer">
-                        <button id="p1Button" class="is-primary button card-footer-item">+1 Playe One</button>
-                        <button id="p2Button" class="is-info button card-footer-item">+1 Player Two</button>
-                        <button id="reset" class="is-danger button card-footer-item">Reset</button>
+                        <button id="p1Button" class="is-primary button card-footer-item is-large">+1 Playe One</button>
+                        <button id="p2Button" class="is-info button card-footer-item is-large">+1 Player Two</button>
+                        <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
 
                     </footer>
                 </div>
